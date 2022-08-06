@@ -1,0 +1,105 @@
+html, body {
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+}
+
+.game-card {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 30px;
+    width: 600px;
+    height: 600px;
+    background-color: #ececec;
+}
+
+.title {
+    position: absolute;
+    top: 50px;
+    text-shadow: 2px 3px 3px black;
+    color: #ffffff;
+    text-align: center;
+    width: 100%;
+}
+
+.title span {
+    font-size: 1.25em;
+    font-weight: 700;
+}
+
+.result {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 80%;
+    height: 30%;
+    border-radius: 30px;
+    background-color: #e2e2e2;
+}
+
+
+.result > p {
+    color: #ffffff;
+    font-size: 1.25em;
+    font-weight: 700;
+    position: relative;
+    padding: 15px;
+}
+
+.result span {
+    color: #ffffff;
+    font-size: 1.15em;
+    font-weight: 500;
+    padding: 5px;
+}
+
+.btn-op {
+    margin-top: 30px;
+}
+
+.btn-op {
+    margin-left: 15px;
+    padding: 30px;
+    background-color: #ececec;
+    border-radius: 30px;
+    border: 5px solid #e2e2e2;
+}
+
+.btn-op:hover {
+    cursor: pointer;
+    box-shadow: 0 0 15px -5px #000000;
+    background-color: #efefef;
+    transition: box-shadow .5s ease-in-out;
+}
+
+.reset {
+    margin: 30px;
+}
+
+.btn-r {
+    color: #ffffff;
+    text-shadow: 2px 2px 2px #000000;
+    font-weight: 700;
+    padding: 15px 30px 15px 30px;
+    background-color: #ececec;
+    border-radius: 30px;
+    border: 5px solid #e2e2e2;
+}
+
+.btn-r:hover {
+    cursor: pointer;
+    box-shadow: 0 0 15px -5px #000000;
+    background-color: #efefef;
+    transition: box-shadow .5s ease-in-out;
+}
